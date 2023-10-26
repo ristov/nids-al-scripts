@@ -15,3 +15,4 @@ al-committee-outlierN.py - QbC active learning with Outlier-N based seed and poo
 
 al-rankedbatch-outlierN.py - ranked-batch active learning with Outlier-N based seed and pool
 
+fully-supervised.py - fully supervised learning
