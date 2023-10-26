@@ -1,0 +1,17 @@
+NIDS active learning scripts
+============================
+
+This repository contains active learning scripts for NIDS alert data set from
+https://github.com/ristov/nids-alert-data. The scripts require the presence
+of the modAL framework: https://github.com/modAL-python/modAL.
+
+The repository contains the following scripts:
+
+al-traditional.py - active learning with traditional random sampling based seed and pool
+
+al-outlierN.py - active learning with Outlier-N based seed and pool
+
+al-committee-outlierN.py - QbC active learning with Outlier-N based seed and pool
+
+al-rankedbatch-outlierN.py - ranked-batch active learning with Outlier-N based seed and pool
+
