@@ -23,7 +23,7 @@ fully-supervised.py - fully supervised learning
 
 Availability and licensing
 --------------------------
-This toolkit is available from https://github.com/ristov/nids-alert-proc, 
+This toolkit is available from https://github.com/ristov/nids-al-scripts, 
 and is distributed under the terms of GNU General Public License version 2 
 (see the file COPYING).
 
