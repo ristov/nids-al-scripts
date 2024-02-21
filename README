@@ -8,6 +8,14 @@ This repository contains active learning scripts for NIDS alert data set from
 https://github.com/ristov/nids-alert-data. The scripts require the presence
 of the modAL framework: https://github.com/modAL-python/modAL.
 
+The experiments conducted with the active learning scripts from this repository
+have been described in the following paper:
+
+Risto Vaarandi and Alejandro Guerra-Manzanares, 
+"Network IDS alert classification with active learning techniques," 
+Journal of Information Security and Applications, vol. 81, article 103687, 2024, 
+https://doi.org/10.1016/j.jisa.2023.103687
+
 The repository contains the following scripts:
 
 al-traditional.py - active learning with traditional random sampling based seed and pool
