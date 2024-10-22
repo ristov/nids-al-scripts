@@ -37,8 +37,6 @@ label1 = y_test[y_test == 1]
 
 for i in range(iterations):
     
-    rng = np.random.default_rng(i)
-    
     clf = RandomForestClassifier(n_estimators=100, random_state=i, class_weight='balanced')
     
     model = clf.fit(X_train, y_train)
@@ -57,8 +55,6 @@ for i in range(iterations):
 
 
 for i in range(iterations):
-    
-    rng = np.random.default_rng(i)
     
     ros = RandomOverSampler(random_state=i)
     
@@ -82,8 +78,6 @@ for i in range(iterations):
 
 
 for i in range(iterations):
-    
-    rng = np.random.default_rng(i)
     
     rus = RandomUnderSampler(random_state=i)
     
