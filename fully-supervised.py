@@ -83,9 +83,6 @@ for i in range(iterations):
     
     X_resampled, y_resampled = rus.fit_resample(X_train, y_train)
 
-    label0 = y_resampled[y_resampled == 0]
-    label1 = y_resampled[y_resampled == 1]
-
     clf = RandomForestClassifier(n_estimators=100, random_state=i)
     
     model = clf.fit(X_resampled, y_resampled)
