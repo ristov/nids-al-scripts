@@ -22,17 +22,11 @@ training_set = pd.read_csv('/home/risto/al-training.csv')
 X_train = training_set.drop(columns=['Timestamp', 'SignatureText', 'Label'])
 y_train = training_set['Label']
 
-label0 = y_train[y_train == 0]
-label1 = y_train[y_train == 1]
-
 
 test_set = pd.read_csv('/home/risto/al-test.csv')
 
 X_test = test_set.drop(columns=['Timestamp', 'SignatureText', 'Label'])
 y_test = test_set['Label']
-
-label0 = y_test[y_test == 0]
-label1 = y_test[y_test == 1]
 
 
 for i in range(iterations):
